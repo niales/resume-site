@@ -40,8 +40,44 @@ npm run build
 
 The build files will be created in the `build` directory.
 
+## Deployment to GitHub Pages
+
+This project is configured for easy deployment to GitHub Pages.
+
+### Manual Deployment
+
+1. Update the `homepage` field in `package.json` with your GitHub Pages URL:
+   ```json
+   "homepage": "https://yourusername.github.io/resume-site"
+   ```
+
+2. Deploy to GitHub Pages:
+   ```
+   npm run deploy
+   ```
+
+### Automated Deployment with GitHub Actions
+
+This repository includes a GitHub Actions workflow that automatically deploys the site to GitHub Pages when you push to the main branch.
+
+To set it up:
+
+1. Make sure your repository is public or you have GitHub Pro (for private repositories)
+2. Go to your repository settings → Pages
+3. Set the source to "GitHub Actions"
+4. Push to the main branch to trigger the deployment
+
+## Customization
+
+To customize this resume for your own use:
+
+1. Edit the `resumeData` object in `src/App.js` with your personal information
+2. Modify the color scheme in `tailwind.config.js` if desired
+3. Add your own favicon and logo images in the `public` directory
+
 ## Technologies Used
 
 - React
 - Tailwind CSS
-- Create React App 
+- Create React App
+- GitHub Pages 
