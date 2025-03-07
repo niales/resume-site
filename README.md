@@ -67,6 +67,14 @@ To set it up:
 3. Set the source to "GitHub Actions"
 4. Push to the main branch to trigger the deployment
 
+#### Troubleshooting GitHub Actions
+
+If you encounter issues with the GitHub Actions workflow:
+
+- The workflow uses `npm install` instead of `npm ci` to avoid requiring a package-lock.json file
+- If you prefer to use `npm ci` (which is faster and more reliable), generate a package-lock.json file locally by running `npm install` and commit it to your repository
+- Make sure your default branch name in the workflow file matches your actual default branch (main or master)
+
 ## Customization
 
 To customize this resume for your own use:
