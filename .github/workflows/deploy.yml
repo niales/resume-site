@@ -23,7 +23,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies 📦
-        run: npm install
+        run: npm install # DO NOT CHANGE THIS LINE TO npm ci
 
       - name: Build 🏗️
         run: npm run build
