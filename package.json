@@ -2,7 +2,7 @@
   "name": "resume-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://resume.abstractreality.net/",
+  "homepage": "https://resume.abstractreality.net",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
