@@ -21,7 +21,7 @@ These instructions will help you set up and run the project on your local machin
 
 2. Install dependencies
    ```
-   npm install
+   npm install 
    ```
 
 3. Start the development server
