@@ -17,7 +17,7 @@ const App = () => {
       contact: {
         address: "1240 India St #2004, San Diego CA, 92101",
         phone: "(715) 808-4230",
-        email: "BenRude@Mailbox.org"
+        email: "MrBenRude@gmail.com"
       }
     },
     experience: [
@@ -26,14 +26,13 @@ const App = () => {
         company: "Noontide Services",
         location: "Remote",
         title: "Solutions Architect",
-        period: "Oct 2021 - Present",
+        period: "Oct 2021 - January 2025",
+        website: "https://www.noontideservice.com",
         highlights: [
-          "Led design discussions and diagrammed decisions made",
-          "Researched and implemented new technologies including AWS queuing service for integrations, docker services, x-ray trace collection, system security, and redis caching",
-          "Gave updates on project progress, provided high level estimates based off of business concepts",
-          "Created stories for work to be done, collaborated with my team to provide more detailed estimates",
-          "Designed service mapping, created templates for developers to use when creating new services",
-          "Implemented redux store and caching throughout the website"
+          "Engineered cloud-native solutions on AWS, incorporating Docker containerization and optimizing Redis caching strategies, achieving a 75% reduction in first page load time",
+          "Implemented AI based order system using OpenAI APIs to automatically generate work orders saving 4+ hours of manual work per day",
+          "Facilitated collaborative technical design sessions; crafted system diagrams for enterprise applications, resulting in zero critical system outages and a 99.99% application uptime",
+          "Established DevOps processes and service templates, reducing new service deployment time by 75%"
         ]
       },
       {
@@ -42,64 +41,54 @@ const App = () => {
         location: "Edina MN",
         title: "Senior Software Engineer",
         period: "Oct 2018 - October 2021",
+        website: "https://www.emergentsoftware.net",
         highlights: [
-          "Managed time and deliverables for 4 concurrent projects",
-          "Created Tileshop.com website (with team) using Sitecore CMS (C#)",
-          "Scrum master and point contact for managing ongoing work with Sitecore website",
-          "Worked with designers to create a SPA React web app",
-          "Developed a REST API that synchronizes quickbase and quickbooks using C# .Net Core, webhooks, and Docker containers. Hosted in AWS",
-          "Integrated real time and batched data synchronization between on prem and cloud servers",
-          "Created numerous dev ops CI/CD pipelines to streamline release processes"
+          "Managed deliverables across 4 concurrent projects while maintaining quality standards and deadlines",
+          "Engineered a Sitecore CMS-based e-commerce platform for Tileshop.com, implementing features that cut content update times by 40%",
+          "Created REST API integration between QuickBase and QuickBooks that automated financial processes, saving 25+ hours weekly",
+          "Designed a resilient data synchronization architecture with automated failover capabilities, minimizing data loss during system outages and maintaining data availability for critical business operations"
         ]
       },
       {
         id: "chrobinson3",
         company: "C.H. Robinson",
         location: "Eden Prairie MN",
-        title: "Software Engineer III/Tech Lead",
+        title: "Senior Software Engineer/Tech Lead",
         period: "January 2017 - Oct 2018",
+        website: "https://www.chrobinson.com",
         highlights: [
-          "Mentored developers on financials domain, C#, object oriented design, and T-SQL performance tuning",
-          "Kept projects on track by reviewing pull requests, writing stories in Zenhub and prioritizing work with the product owner/delivery lead/project manager",
-          "Drove quality and results by designing efficient software solutions in AngularJS, C#, ServiceStack, T-SQL, Oracle Cloud Service",
-          "Communicated software design and component architecture through UML diagrams, pair programming, and whiteboard sessions",
-          "Consulted for other development teams as domain expert in C.H. Robinson's financial software",
-          "Kept projects statuses green by leading design discussions, assisting with project dependencies, and building consensus for technology used"
+          "Mentored junior developers on financials domain, C#, object oriented design, and T-SQL performance tuning reducing response times from minutes to seconds",
+          "Fostered a positive environment leading team to reach top 5% in employee satisfaction",
+          "Orchestrated project workflow using Zenhub. Collaborated with product owners to deliver features on time, increasing team velocity by 20",
+          "Spearheaded the development of efficient T-SQL queries and Oracle Cloud Service integrations, slashing financial reporting processing time by 60%",
+          "Optimized T-SQL database queries resulting in 60% reduction in processing time for financial reporting",
+          "Presented software architecture and design principles to junior engineers through bi-weekly whiteboard sessions, reducing code defects by 15%",
+          "Cultivated a collaborative environment for resolving technical conflicts, resulting in 100% alignment on technology choices and maintaining green project statuses across all assigned initiatives"
         ]
       },
       {
         id: "chrobinson2",
         company: "C.H. Robinson",
         location: "Eden Prairie MN",
-        title: "Programmer Analyst II",
+        title: "Programmer Analyst 2",
         period: "July 2013 - December 2016",
         highlights: [
           "Primary developer for high volume and mission critical financial order software",
-          "Created stories and performed tech grooming for stories in preparation for upcoming sprints in TFS",
-          "Planned work to be completed with gap analysis, architectural discussions, and requirements gathering",
-          "Shared domain knowledge and programming techniques through paired programming for VB.NET, C#, and T-SQL projects",
-          "Quickly resolved issues by coordinating support efforts to 'swarm' on high priority support issues",
-          "Assisted other teams as domain expert and point of contact on Financials Profit Service"
+          "Planned upcoming work by performing gap analysis, architectural discussions, and requirements gathering improving team velocity over 25%",
+          "Shared domain knowledge and programming techniques through paired programming for VB.NET, C#, and T-SQL projects reducing bugs by 20%",
+          "Optimized database queries using database best practices, reducing execution time by 75%"
         ]
       },
       {
         id: "chrobinson1",
         company: "C.H. Robinson",
         location: "Eden Prairie MN",
-        title: "Programmer Analyst I",
+        title: "Programmer Analyst 1",
         period: "March 2011 - June 2013",
         highlights: [
-          "Supported and updated core financial software for profit recognition, payment disbursement and recording of payments received"
-        ]
-      },
-      {
-        id: "ashley",
-        company: "Ashley Furniture",
-        location: "Arcadia WI",
-        title: "Software Developer",
-        period: "June 2007 - March 2011",
-        highlights: [
-          "VB.Net Developer for time tracking software and 'Change of Status' system for HR to update employee information"
+          "Primary developer for profit recognition service, payment disbursements, and recording of payments received",
+          "Fixed underlying software issues, resolving an average of 65 tickets weekly, and created 20+ SQL scripts to automate resolutions, improving first-call resolution rates by 25%",
+          "Streamlined support processes by creating SQL scripts and protocols for resolving recurring issues increasing ticket resolution by 30%"
         ]
       }
     ],
@@ -110,6 +99,7 @@ const App = () => {
         degree: "M.S. Software Engineering",
         gpa: "4.0 Cumulative GPA",
         period: "September 2016 - May 2018",
+        website: "https://www.umn.edu",
         courses: [
           "Big Data Services",
           "Software Architecture",
@@ -121,17 +111,26 @@ const App = () => {
         ]
       },
       {
-        school: "University of Wisconsin",
-        location: "Eau Claire",
-        degree: "B.S. Computer Science",
-        period: "September 2001 - May 2006"
+        school: "UDemy",
+        location: "Online",
+        degree: "LLM Engineering: Master AI, Large Language Models & Agents",
+        period: "March 2025",
+        website: "https://www.udemy.com"
+      },
+      {
+        school: "UDemy",
+        location: "Online",
+        degree: "Deep Learning A-Z 2025: Neural Networks, AI & ChatGPT",
+        period: "March 2025",
+        website: "https://www.udemy.com"
       }
     ],
     certifications: [
       {
         title: "Sitecore Certified Platform Associate Developer",
         issuer: "Sitecore",
-        period: "January 2019 - Present"
+        period: "January 2019 - Present",
+        website: "https://www.sitecore.com"
       }
     ],
     skills: [
@@ -148,34 +147,41 @@ const App = () => {
         items: ["React", "Redux", "Jasmine", "ServiceStack", "Moq", "OAuth", "Zenhub", "Elasticsearch", "Sitecore", "MVC", "AWS Cognito", "OpenAI", "Anthropic"]
       },
       {
+        category: "Cloud & DevOps",
+        items: ["AWS (Cognito, Lambda, SQS)", "Azure Cloud", "Oracle Cloud", "Docker", "CI/CD", "Git", "GitHub Actions"]
+      },
+      {
+        category: "Databases & Caching",
+        items: ["SQL Server", "MySQL", "Redis", "Elasticsearch", "MongoDB"]
+      },
+      {
         category: "Methodologies",
-        items: ["Agile Methodologies", "SCRUM", "Kanban"]
+        items: ["Agile", "SCRUM", "Kanban", "Microservices Architecture", "SOLID Principles", "TDD"]
       },
       {
-        category: "Skills & Concepts",
-        items: ["Object Oriented Design", "High Performance SQL and .Net", "RESTful Services", "Microservices", "Database Design", "SOLID Principles", "Unit Testing", "Integration Testing", "SaaS"]
-      },
-      {
-        category: "Platforms",
-        items: ["Windows", "Linux", "Azure Cloud", "Amazon Web Services", "Anthropic", "OpenAI"]
+        category: "Platforms & Tools",
+        items: ["OpenAI ChatGPT", "Sitecore CMS", "Azure DevOps", "AWS", "Linux"]
       }
     ],
     projects: [
       {
         name: "facilityhawk.com",
-        description: "React spa with .net core C# backend. AWS Cognito is used for user authentication. Redis caching and MySQL database."
+        description: "Software Architect for 400 user work order system. React spa with .NET core C# backend. AWS Cognito is used for user authentication. Redis caching and MySQL database.",
+        website: "https://www.facilityhawk.com"
       },
       {
         name: "Tileshop.com",
-        description: "C# Sitecore and javascript website. Integrates with SAP for E-Commerce."
+        description: "Senior developer on C# Sitecore website for a $200+ million dollar company. Integrates with SAP for E-Commerce.",
+        website: "https://www.tileshop.com"
       },
       {
         name: "RiceLake.com",
-        description: "Data integrations, Azure queues, DevOps CI/CD process"
+        description: "Senior Developer on marketing website in Umbraco with integrated online orders for a company with that exceeds 500.",
+        website: "https://www.ricelake.com"
       },
       {
-        name: "Oracle Cloud Services",
-        description: "High volume data migration process moving data to cloud ledger software. The project uses RESTful C# services and an Enterprise Service Bus."
+        name: "Oracle Cloud Financial Integration",
+        description: "Tech Lead on High volume data transfer to cloud ledger software reducing Accountings workload by 30%."
       },
       {
         name: "Financials Profit Service",
@@ -317,7 +323,20 @@ const App = () => {
                   >
                     <div>
                       <h3 className="text-xl font-bold text-white group-hover:text-accent-300 transition-colors duration-300">{job.title}</h3>
-                      <p className="text-dark-200">{job.company}, {job.location}</p>
+                      <p className="text-dark-200">
+                        {job.website ? (
+                          <a 
+                            href={job.website} 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="hover:text-accent-300 transition-colors duration-300"
+                          >
+                            {job.company}
+                          </a>
+                        ) : (
+                          job.company
+                        )}, {job.location}
+                      </p>
                       <p className="text-sm text-dark-300">{job.period}</p>
                     </div>
                     <div className={`w-10 h-10 rounded-full flex items-center justify-center bg-dark-600 group-hover:bg-accent-600 transition-all duration-300 ${expandedJob === job.id ? 'rotate-180' : ''}`}>
@@ -398,7 +417,20 @@ const App = () => {
                   style={{ transitionDelay: `${index * 150}ms` }}
                 >
                   <h3 className="text-xl font-bold text-white">{edu.degree}</h3>
-                  <p className="text-dark-200">{edu.school}, {edu.location}</p>
+                  <p className="text-dark-200">
+                    {edu.website ? (
+                      <a 
+                        href={edu.website} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="hover:text-accent-300 transition-colors duration-300"
+                      >
+                        {edu.school}
+                      </a>
+                    ) : (
+                      edu.school
+                    )}, {edu.location}
+                  </p>
                   <p className="text-sm text-dark-300 mb-2">{edu.period}</p>
 
                   {edu.gpa && (
@@ -436,7 +468,20 @@ const App = () => {
                       <div className="w-2 h-2 bg-accent-400 rounded-full mr-3"></div>
                       <div>
                         <p className="font-medium text-white">{cert.title}</p>
-                        <p className="text-sm text-dark-300">{cert.issuer} • {cert.period}</p>
+                        <p className="text-sm text-dark-300">
+                          {cert.website ? (
+                            <a 
+                              href={cert.website} 
+                              target="_blank" 
+                              rel="noopener noreferrer" 
+                              className="hover:text-accent-300 transition-colors duration-300"
+                            >
+                              {cert.issuer}
+                            </a>
+                          ) : (
+                            cert.issuer
+                          )} • {cert.period}
+                        </p>
                       </div>
                     </div>
                   ))}
@@ -462,7 +507,20 @@ const App = () => {
                 >
                   <div className="p-6 relative">
                     <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-accent-400 to-vibrant-indigo transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-accent-300 transition-colors duration-300">{project.name}</h3>
+                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-accent-300 transition-colors duration-300">
+                      {project.website ? (
+                        <a 
+                          href={project.website} 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          className="hover:text-accent-300 transition-colors duration-300"
+                        >
+                          {project.name}
+                        </a>
+                      ) : (
+                        project.name
+                      )}
+                    </h3>
                     <p className="text-dark-200">{project.description}</p>
                   </div>
                 </div>
@@ -483,4 +541,4 @@ const App = () => {
   );
 };
 
-export default App; 
+export default App;
